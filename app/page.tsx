@@ -33,7 +33,7 @@ export default function Home() {
               <><FormItem>
                 <FormLabel>title</FormLabel>
                 <FormControl>
-                  <Input placeholder="main title of product" {...field} />
+                  <Input className="mb-4" placeholder="main title of product" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
